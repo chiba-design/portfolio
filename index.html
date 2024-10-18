@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOTA CHIBA PORTFOLIO</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <h1 class="header-logo">
+            <a href="index.html"><img src="img/logo.svg" alt=""></a>
+        </h1>
+
+        <nav class="header-nav">
+            <ul class="header-list">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#works">WORKS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <div class="toggle_btn pc">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div id="mask"></div>
+    </header>
+
+    <main>
+        <div class="mainvisual">
+            <picture>
+                <source media="(min-width: 861px)" srcset="img/mainvisual.pc.jpg">
+                <source media="(max-width: 860px)" srcset="img/mainvisual.sp.jpg">
+                <img src="img/mainvisual.jpg" alt="">
+            </picture>
+
+
+            <div class="mainvisual-box">
+
+                <p class="catchcopy">あなたのビジョンを<br>WEBで実現</p>
+
+                <div class="mainvisual-textbox">
+                    <p class="text-name">千葉 翔太 - Shota Chiba</p>
+
+                    <p class="mainvisual-text1">1999年生まれ。 千葉県出身。<br>化学繊維会社に勤め、電気設備の管理・保全を従事。</p>
+
+                    <p class="mainvisual-text2">
+                        使いやすさと美しさを大切に。<br>デザインとコードであなたのビジョンをWEBで実現させる。
+                    </p>
+
+                    <p class="mainvisuak-text3"> そんな想いを胸にあなたの夢を実現するため私の技術と<br>情熱を注ぎます。</p>
+
+                    <div class="btn">
+                        <a href="about.html">Read More</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <section class="about container sp">
+
+            <h2 class="section-title">
+                <span class="en">About</span>
+                <span class="ja">私について</span>
+            </h2>
+
+            <div class="about-textbox">
+                <p class="text-name">千葉 翔太 - Shota Chiba</p>
+
+                <p class="about-text1">1999年生まれ。 千葉県出身。<br>化学繊維会社に勤め、電気設備の管理・保全を従事。</p>
+
+                <p class="about-text2">
+                    使いやすさと美しさを大切に。<br>デザインとコードであなたのビジョンをWEBで実現させる。
+                </p>
+
+                <p class="about-text3"> そんな想いを胸にあなたの夢を実現するため私の技術と情熱を注ぎます。</p>
+
+                <div class="btn">
+                    <a href="about.html">Read More</a>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="skills" class="skills container">
+            <h2 class="section-title">
+                <span class="en">Skills</span>
+                <span class="ja">できること</span>
+            </h2>
+
+            <div class="skills-contents">
+                <div class="skill fadein">
+                    <img src="img/skills/skill1.png" alt="">
+
+                    <div class="skill-text">
+                        <p>HTML/CSSを用いてデザインを再現し、視覚的に魅力的で機能的なWEBサイトを作成します。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skill fadein">
+                    <img src="img/skills/skill2.png" alt="">
+
+                    <div class="skill-text">
+                        <p>Javascript/jqueryを用いてWEBサイトに動きを与え、ユーザーの興味を惹くことが可能です。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skill fadein">
+                    <img src="img/skills/skill3.png" alt="">
+
+                    <div class="skill-text">
+                        <p>PHPを用いてwordpressの実装お問い合わせフォームの実装が可能です。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-sp">
+                <img src="img/skills/skills.sp.png" alt="">
+
+
+                <div class="skill-text">
+                    <p>
+                        デザインの再現、動的なサイトを実装しユーザーの興味を惹く魅力的なウェブサイトを作成します。<br>
+                        また、wordpressとお問い合わせの実装も致します。
+                    </p>
+
+                    <p class="skill-text-sp">使用スキル<br>HTML/CSS/javascript/jquery/PHP </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="works" class="works container">
+            <h2 class="section-title">
+                <span class="en">Works</span>
+                <span class="ja">制作実績</span>
+            </h2>
+
+            <div class="works-contents">
+                <div class="work fadein">
+                    <a href="#">
+                        <img src="img/works/work1.jpg" alt="">
+
+                        <div class="work-textbox">
+                            <p class="work-text1">ホームページ</p>
+                            <p>Cafe WEBサイト</p>
+                            <p>コーディング期間：2週間</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work fadein">
+                    <a href="#">
+                        <img src="img/works/work2.jpg" alt="">
+                        <div class="work-textbox">
+                            <p>ホームページ</p>
+                            <p>料理教室 募集サイト</p>
+                            <p>コーディング期間：2週間</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work fadein">
+                    <a href="#">
+                        <img src="img/works/work3.jpg" alt="">
+                        <div class="work-textbox">
+                            <p>ホームページ</p>
+                            <p>IT企業 コーポレイトサイト</p>
+                            <p>コーディング期間：1ヵ月</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work fadein">
+                    <a href="#">
+                        <img src="img/works/work4.jpg" alt="">
+                        <div class="work-textbox">
+                            <p>ホームページ</p>
+                            <p>アパレルショップ</p>
+                            <p>コーディング期間：1週間</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work fadein">
+                    <a href="#">
+                        <img src="img/works/work5.jpg" alt="">
+                        <div class="work-textbox">
+                            <p>ホームページ</p>
+                            <p>通販サイト</p>
+                            <p>コーディング期間：1ヵ月半</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work fadein">
+                    <a href="#">
+                        <img src="img/works/work6.jpg" alt="">
+                        <div class="work-textbox">
+                            <p>ホームページ</p>
+                            <p>オンラインスクール 募集サイト</p>
+                            <p>コーディング期間：1ヵ月</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact container">
+            <h2 class="section-title">
+                <span class="en">Contact</span>
+                <span class="ja">お問い合わせ</span>
+            </h2>
+
+            <div class="contact-form">
+                <p class="contact-text1">制作の依頼・ご相談などお気軽にお問い合わせください。</p>
+                <p class="contact-text2">下記フォームからご記入ください。必須の項目は必ずご記入お願い致します。</p>
+
+                <form action="">
+                    <dl class="form">
+                        <dt>会社名<span>任意</span></dt>
+                        <dd><input type="text" name="company"></dd>
+
+                        <dt>お名前</dt>
+                        <dd><input type="text" name="name" id="name"></dd>
+
+                        <dt>お電話番号<span>任意</span></dt>
+                        <dd><input type="tell" name="tell"></dd>
+
+                        <dt>メールアドレス</dt>
+                        <dd><input type="email" name="email" id="email"></dd>
+
+                        <dt>お問い合わせ内容</dt>
+                        <dd><textarea name="message" id="message"></textarea></dd>
+                    </dl>
+                </form>
+
+                <div class="button">
+                    <input type="submit" value="送信する">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="index.html"><img src="img/logo.svg" alt=""></a>
+            </div>
+
+            <div class="footer-nav">
+                <ul class="footer-list">
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#works">WORKS</a></li>
+                    <li><a href="contact">CONTACT</a></li>
+                </ul>
+
+                <ul class="footer-sns">
+                    <li><a href="#"><img src="img/Instagram.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/logo-black.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copy">
+            <small>&copy; chiba shota portfolio</small>
+        </div>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main_answer.js"></script>
+</body>
+
+</html>
